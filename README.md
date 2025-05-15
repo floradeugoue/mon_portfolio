@@ -99,6 +99,6 @@ Tu peux déployer ce portfolio sur :
 ## 🧑‍💻 Auteur
 
 Développé par **[Floriane Deugoue]**  
-Contact : [gmail](kamenideugoue22@gmail.com)
+Contact : [gmail](mailto:makamenideugoue22@gmail.com)
 linkedin : [linkedin](https://www.linkedin.com/in/deugoue-floriane)
 github : [github](https://github.com/floradeugoue)
