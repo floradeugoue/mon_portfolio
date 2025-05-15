@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💼 Portfolio - FLORIANE DEUGOUE
 
-## Getting Started
+Bienvenue sur mon portfolio personnel, réalisé avec **Next.js** et **Tailwind CSS**.  
+Ce site me permet de présenter mes compétences, mes projets, et de faciliter le contact avec les recruteurs ou collaborateurs.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Technologies utilisées
+
+- [Next.js](https://nextjs.org/) – Framework React pour les sites modernes
+- [Tailwind CSS](https://tailwindcss.com/) – Framework CSS utilitaire
+- [TypeScript](https://www.typescriptlang.org/) – Typage optionnel utilisé dans le projet
+- Git & GitHub – Versionnage et hébergement
+- GitHub Pages – Pour la mise en ligne gratuite du site
+
+---
+
+## 🔗 Démo en ligne
+
+👉 [Accéder au site](https://floradeugoue.github.io/mon_portfolio)
+
+## 📁 Structure du projet
+
+```
+mon_portfolio/
+├── app/
+│   ├── page.tsx             # Page d’accueil (one-page)
+│   ├── layout.tsx           # Layout global (header, footer)
+│   └── globals.css          # Styles globaux + Tailwind
+│
+├── components/              # Composants réutilisables
+│   ├── Navbar.tsx
+│   ├── HeroSection.tsx
+│   ├── AboutSection.tsx
+│   ├── ServicesSection.tsx
+│   ├── PortfolioSection.tsx
+│   └── ContactSection.tsx
+│
+├── public/                  # Images, favicon, etc.
+│   └── images/
+│
+├── styles/                  # (Optionnel) Fichiers CSS personnalisés
+│
+├── tailwind.config.js       # Configuration Tailwind
+├── postcss.config.js        # Configuration PostCSS
+├── tsconfig.json            # Configuration TypeScript
+├── package.json             # Dépendances et scripts
+└── README.md                # Ce fichier
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone ce dépôt :
+```bash
+git clone https://github.com/floradeugoue/mon_portfolio.git
+cd mon_portfolio
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Installe les dépendances :
+```bash
+npm install
+```
 
-## Learn More
+3. Lance le serveur de développement :
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Accède à l'application dans ton navigateur :
+```
+http://localhost:3000
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔗 Navigation dans la page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Chaque section est une ancre HTML :
+- `#accueil`
+- `#a-propos`
+- `#services`
+- `#portfolio`
+- `#contact`
 
-## Deploy on Vercel
+> Exemple : `http://localhost:3000/#contact` fait défiler jusqu’à la section Contact.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Déploiement
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tu peux déployer ce portfolio sur :
+- [Vercel](https://vercel.com) (recommandé pour Next.js)
+- Netlify
+- GitHub Pages (avec adaptations)
+
+## ✨ À venir
+
+- Mode sombre
+- Animations avec Framer Motion
+- Formulaire de contact fonctionnel avec EmailJS ou autre
+- Version mobile optimisée
+
+## 🧑‍💻 Auteur
+
+Développé par **[Floriane Deugoue]**  
+Contact : [gmail](kamenideugoue22@gmail.com)
+linkedin : [linkedin](https://www.linkedin.com/in/deugoue-floriane)
+github : [github](https://github.com/floradeugoue)
